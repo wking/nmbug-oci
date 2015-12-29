@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "OCI Discussion",
+    "blurb": "For more information see <a href=\"https://github.com/opencontainers/specs#contributing\">opencontainers/specs</a>.",
+    "message-url": "https://groups.google.com/a/opencontainers.org/forum/#!searchin/dev/messageid$3A{message-id}"
+  },
+  "views": [
+    {
+      "comment": "Unresolved bugs.",
+      "query": [
+        "tag:oci::bug",
+        "not tag:oci::fixed",
+        "not tag:oci::wontfix"
+      ],
+      "title": "Bugs"
+    },
+    {
+      "comment": "Open feature requests with pull-requests.",
+      "query": [
+        "tag:oci::feature",
+        "tag:oci::pull-request",
+        "not tag:oci::obsolete"
+      ],
+      "title": "Features with pull-requests"
+    },
+    {
+      "comment": "Open feature requests with external repository work.",
+      "query": [
+        "tag:oci::feature",
+        "tag:oci::external-repo",
+        "not tag:oci::obsolete"
+      ],
+      "title": "Features with external work"
+    },
+    {
+      "comment": "Open feature discussion without pull-requests or external work.",
+      "query": [
+        "tag:oci::feature",
+        "not tag:oci::pull-request",
+        "not tag:oci::external-repo",
+        "not tag:oci::obsolete"
+      ],
+      "title": "Features in discussion"
+    },
+    {
+      "comment": "Changes requiring charter changes via the Technical Oversight Board.",
+      "query": [
+        "tag:oci::feature",
+        "tag:oci::charter",
+        "not tag:oci::obsolete"
+      ],
+      "title": "Charter changes"
+    }
+  ]
+}
