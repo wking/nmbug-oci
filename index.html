@@ -44,10 +44,11 @@
   </style>
 </head>
 <body>
-<h2>OCI Discussion</h2>
+<h1>OCI Discussion</h1>
+<p>
 Tracking OCI discussion with <a href="https://notmuchmail.org/nmbug/">nmbug</a>.  For more information on OCI spec discussion, see <a href="https://github.com/opencontainers/specs#contributing">opencontainers/specs</a>.
 </p>
-<h3>Views</h3>
+<h2>Views</h2>
 <ul>
 <li><a href="#Bugs">Bugs</a></li>
 <li><a href="#Features-with-pull-requests">Features with pull-requests</a></li>
@@ -62,7 +63,7 @@ The view is generated from the following query:
 </p>
 <p>
   <code>
-tag:oci::bug and not tag:oci::fixed and not tag:oci::wontfix
+( tag:oci::bug ) and ( not tag:oci::fixed ) and ( not tag:oci::wontfix )
   </code>
 </p>
 <h3 id="Features-with-pull-requests">Features with pull-requests</h3>
@@ -72,7 +73,7 @@ The view is generated from the following query:
 </p>
 <p>
   <code>
-tag:oci::feature and tag:oci::pull-request and not tag:oci::obsolete
+( tag:oci::feature ) and ( tag:oci::pull-request ) and ( not tag:oci::obsolete )
   </code>
 </p>
 <table>
@@ -127,7 +128,7 @@ The view is generated from the following query:
 </p>
 <p>
   <code>
-tag:oci::feature and tag:oci::external-repo and not tag:oci::obsolete
+( tag:oci::feature ) and ( tag:oci::external-repo ) and ( not tag:oci::obsolete )
   </code>
 </p>
 <table>
@@ -160,7 +161,7 @@ The view is generated from the following query:
 </p>
 <p>
   <code>
-tag:oci::feature and not tag:oci::pull-request and not tag:oci::external-repo and not tag:oci::obsolete
+( tag:oci::feature ) and ( not tag:oci::pull-request ) and ( not tag:oci::external-repo ) and ( not tag:oci::obsolete )
   </code>
 </p>
 <table>
@@ -248,7 +249,7 @@ The view is generated from the following query:
 </p>
 <p>
   <code>
-tag:oci::feature and tag:oci::charter and not tag:oci::obsolete
+( tag:oci::feature ) and ( tag:oci::charter ) and ( not tag:oci::obsolete )
   </code>
 </p>
 <table>
@@ -265,6 +266,6 @@ tag:oci::feature and tag:oci::charter and not tag:oci::obsolete
 </table>
 
 <hr>
-<p>Generated: 2015-12-30 05:40:50Z
+<p>Generated: 2015-12-30 20:57:39Z</p>
 </body>
 </html>
