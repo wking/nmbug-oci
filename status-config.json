@@ -43,7 +43,7 @@
       "title": "Features in discussion"
     },
     {
-      "comment": "Changes requiring charter changes via the Technical Oversight Board.",
+      "comment": "Suggested charter changes requiring Technical Oversight Board action.",
       "query": [
         "tag:oci::charter",
         "not tag:oci::obsolete"
