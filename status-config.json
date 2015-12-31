@@ -45,7 +45,6 @@
     {
       "comment": "Changes requiring charter changes via the Technical Oversight Board.",
       "query": [
-        "tag:oci::feature",
         "tag:oci::charter",
         "not tag:oci::obsolete"
       ],
