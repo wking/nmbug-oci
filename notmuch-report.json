@@ -62,7 +62,6 @@
     {
       "comment": "Previous motions which were accepted.",
       "query": [
-        "tag:oci::motion",
         "tag:oci::motion-accepted"
       ],
       "title": "Accepted motions"
@@ -70,7 +69,6 @@
     {
       "comment": "Previous motions which were rejected.",
       "query": [
-        "tag:oci::motion",
         "tag:oci::motion-rejected"
       ],
       "title": "Rejected motions"
