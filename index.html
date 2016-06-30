@@ -64,6 +64,9 @@ Tracking OCI discussion with <a href="https://notmuchmail.org/nmbug/">nmbug</a>.
 <li><a href="#Features-with-external-work">Features with external work</a></li>
 <li><a href="#Features-in-discussion">Features in discussion</a></li>
 <li><a href="#Charter-changes">Charter changes</a></li>
+<li><a href="#Open-motions">Open motions</a></li>
+<li><a href="#Accepted-motions">Accepted motions</a></li>
+<li><a href="#Rejected-motions">Rejected motions</a></li>
 </ul>
 <h3 id="Bugs">Bugs</h3>
 <p>
@@ -295,8 +298,129 @@ The view is generated from the following query:
     </tr>
   </tbody>
 </table>
+<h3 id="Open-motions">Open motions</h3>
+<p>
+Open motions requiring maintainer or TOB voting.
+The view is generated from the following query:
+</p>
+<p>
+  <code>
+( tag:oci::motion ) and ( not tag:oci::motion-accepted ) and ( not tag:oci::motion-rejected )
+  </code>
+</p>
+<table>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-06-23</td>
+      <td><code>id:"CAD2oYtNnW+hP7Q3NPBdYHOKfigU0pvbgcphKPhRB=ZfQBwX8VA@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtNnW%2BhP7Q3NPBdYHOKfigU0pvbgcphKPhRB%3DZfQBwX8VA%40mail.gmail.com%22">Vote Required: OCI Image Spec Release Process</a></td>
+    </tr>
+  </tbody>
+  <tbody><tr><td colspan="2"><br /></td></tr></tbody>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-06-23</td>
+      <td><code>id:"CAD2oYtOOB7zn-Bhp2Xgt+Wv4u=+_RAgEt=ic+60Qf=Z3j0WbQQ@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtOOB7zn-Bhp2Xgt%2BWv4u%3D%2B_RAgEt%3Dic%2B60Qf%3DZ3j0WbQQ%40mail.gmail.com%22">Vote Required: OCI runC Release Process</a></td>
+    </tr>
+  </tbody>
+  <tbody><tr><td colspan="2"><br /></td></tr></tbody>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-06-23</td>
+      <td><code>id:"CAD2oYtMsOEB=DWRCihnTrNJ1m6RuJR-C3XjUOorz4DNOKdfMcA@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtMsOEB%3DDWRCihnTrNJ1m6RuJR-C3XjUOorz4DNOKdfMcA%40mail.gmail.com%22">Vote Required: OCI Image Spec Release Process</a></td>
+    </tr>
+  </tbody>
+  <tbody><tr><td colspan="2"><br /></td></tr></tbody>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-06-29</td>
+      <td><code>id:"CAD2oYtNUMZ_E=NyvCq9_N=SLW75aR1QkLsb0+Uz6aSQr8c0-0Q@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtNUMZ_E%3DNyvCq9_N%3DSLW75aR1QkLsb0%2BUz6aSQr8c0-0Q%40mail.gmail.com%22">[image-spec VOTE]: Tag ca58cdf as v0.3.0 (closes 2016-07-06 17:00 UTC)</a></td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="Accepted-motions">Accepted motions</h3>
+<p>
+Previous motions which were accepted.
+The view is generated from the following query:
+</p>
+<p>
+  <code>
+( tag:oci::motion ) and ( tag:oci::motion-accepted )
+  </code>
+</p>
+<table>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-03-20</td>
+      <td><code>id:"CAD2oYtNiOgCgLgZk--4bfrdywTmwP=bqSxvkSJ-rv=PTEoaTag@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtNiOgCgLgZk--4bfrdywTmwP%3DbqSxvkSJ-rv%3DPTEoaTag%40mail.gmail.com%22">[oci-tob] ACTION: Proposal for a new project: OCI Image Format Spec (v3)</a></td>
+    </tr>
+  </tbody>
+  <tbody><tr><td colspan="2"><br /></td></tr></tbody>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-06-15</td>
+      <td><code>id:"CAD2oYtPoAvY8JTrz2Yi1zwjOyOuRR5faY=9jH=_QmsS_rwwbFA@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtPoAvY8JTrz2Yi1zwjOyOuRR5faY%3D9jH%3D_QmsS_rwwbFA%40mail.gmail.com%22">Proposal: Rename Image Spec milestone v1.0.0-rc1 to v0.3.0</a></td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="Rejected-motions">Rejected motions</h3>
+<p>
+Previous motions which were rejected.
+The view is generated from the following query:
+</p>
+<p>
+  <code>
+( tag:oci::motion ) and ( tag:oci::motion-rejected )
+  </code>
+</p>
+<table>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-02-26</td>
+      <td><code>id:"CAD2oYtPCZRUXOER-Fz7WKsnNwYA-PoPmCG59jD1i3=xgYnGLZw@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtPCZRUXOER-Fz7WKsnNwYA-PoPmCG59jD1i3%3DxgYnGLZw%40mail.gmail.com%22">[oci-tob] Proposal for a new project: OCI Image Format Spec</a></td>
+    </tr>
+  </tbody>
+  <tbody><tr><td colspan="2"><br /></td></tr></tbody>
+  <tbody>
+    <tr class="message-first">
+      <td>2016-03-18</td>
+      <td><code>id:"CAD2oYtMRhJhGBDwt77_L7Ac4LJ22Zsys+Q=zJLvYA1dwcmLE0w@mail.gmail.com"</code></td>
+    </tr>
+    <tr class="message-last">
+      <td>Brandon Philips</td>
+      <td><a href="https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22CAD2oYtMRhJhGBDwt77_L7Ac4LJ22Zsys%2BQ%3DzJLvYA1dwcmLE0w%40mail.gmail.com%22">[oci-tob] Proposal for a new project: OCI Image Format Spec (v2)</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <hr>
-<p>Generated: 2016-05-25 05:35:15Z</p>
+<p>Generated: 2016-06-30 04:16:00Z</p>
 </body>
 </html>
