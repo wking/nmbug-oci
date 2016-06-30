@@ -49,6 +49,31 @@
         "not tag:oci::obsolete"
       ],
       "title": "Charter changes"
+    },
+    {
+      "comment": "Open motions requiring maintainer or TOB voting.",
+      "query": [
+        "tag:oci::motion",
+        "not tag:oci::motion-accepted",
+        "not tag:oci::motion-rejected"
+      ],
+      "title": "Open motions"
+    },
+    {
+      "comment": "Previous motions which were accepted.",
+      "query": [
+        "tag:oci::motion",
+        "tag:oci::motion-accepted"
+      ],
+      "title": "Accepted motions"
+    },
+    {
+      "comment": "Previous motions which were rejected.",
+      "query": [
+        "tag:oci::motion",
+        "tag:oci::motion-rejected"
+      ],
+      "title": "Rejected motions"
     }
   ]
 }
