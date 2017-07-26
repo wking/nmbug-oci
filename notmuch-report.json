@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "OCI Discussion",
-    "blurb": "Tracking OCI discussion with <a href=\"https://notmuchmail.org/nmbug/\">nmbug</a>.  For more information on OCI spec discussion, see <a href=\"https://github.com/opencontainers/specs#contributing\">opencontainers/specs</a>.",
+    "blurb": "Tracking OCI discussion with <a href=\"https://notmuchmail.org/nmbug/\">nmbug</a>.  For more information on OCI spec discussion, see <a href=\"https://github.com/opencontainers/runtime-spec#contributing\">opencontainers/runtime-spec</a>.",
     "message-url": "https://groups.google.com/a/opencontainers.org/forum/#!search/messageid$3A%22{message-id}%22"
   },
   "views": [
